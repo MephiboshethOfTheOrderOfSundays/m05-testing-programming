@@ -1,0 +1,24 @@
+Results of testing test_sum.py: The assertion
+and all other code works correctly. This means 
+that this statement demonstrates
+what happens in a successful test.
+Results of testing test_sum_2.py: The assertion is
+false, so the code fails. This
+means that this statement demonstrates what happens
+in a failed test.
+Results of testing test_sum_unittest.py: The assertion
+ for the test_sum() function is true,
+but the assertion for the test_tuple() function is
+false. Therefore, the code fails. This means the
+same as for test_sum_2.py.
+Results of testing test.py, which runs __init__.py
+in the process: The assertion for the summing of 
+integers is true, so the code as itstands will work. 
+However, the assertion for the 
+summing of fractions is false. Therefore, when
+the summing of integers is used alone, this
+fraction demonstrates a successful test. When the
+code for summing of fractions is attempted, this
+fraction demonstrates a failed test.
+
+
